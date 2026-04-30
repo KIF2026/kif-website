@@ -1,0 +1,9 @@
+{
+  "name": "kif-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Kenpo International Federation static website for Cloudflare",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  }
+}
