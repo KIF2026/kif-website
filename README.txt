@@ -21,3 +21,9 @@ Included pages:
 - Belt Techniques EN/ES
 - Triunity school EN/ES
 - Villa Linda school EN/ES
+
+
+v6 upload reminder:
+- Upload the ENTIRE unzipped package contents.
+- Make sure GitHub shows the top-level folders assets/ and downloads/ after upload.
+- If those folders do not appear in GitHub, the live site will load as plain text.
