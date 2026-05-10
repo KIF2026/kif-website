@@ -1,29 +1,14 @@
-KIF Cloudflare-safe package v4
-
-This package is prepared specifically for Cloudflare static hosting.
-
-Important:
-- All CSS, JS, images, video, and documents use RELATIVE paths only.
-- wrangler.json is included so Cloudflare Workers can serve the full site as static assets.
-- If you redeploy from GitHub on Cloudflare Workers, leave Build command blank and keep Path as /.
-- If you use direct upload instead, upload the unzipped contents of this package.
-
-Included pages:
-- index.html / index_es.html
-- Hall of Fame EN/ES
-- Welcome Videos EN/ES
-- Photos & Videos EN/ES
-- Affiliation Policy EN/ES
-- Affiliation Form EN/ES
-- Brief History EN/ES
-- Black Belt Ranking EN/ES
-- Kenpo Creed EN/ES
-- Belt Techniques EN/ES
-- Triunity school EN/ES
-- Villa Linda school EN/ES
+KIF full GitHub-ready site package
+Includes complete folder structure, all pages connected, bilingual EN/ES, Hall of Fame in main structure, real application form, contact form wired to kenpointernationalfederation@gmail.com, assets and downloads folders, and Cloudflare Pages compatible static files.
 
 
-v6 upload reminder:
-- Upload the ENTIRE unzipped package contents.
-- Make sure GitHub shows the top-level folders assets/ and downloads/ after upload.
-- If those folders do not appear in GitHub, the live site will load as plain text.
+Update v2:
+- Expanded Brief History page.
+- Added Ed Parker image placeholder to the package.
+- Added Hall of Fame biographies for Sensei Miguel Vélez, Sensei Rigoberto Samayoa, and Sensei Mohamad Tabatabai.
+
+
+v4 update:
+- Fixed language button links across the full static package.
+- English pages now point to the correct Spanish pages.
+- Spanish pages now point back to the correct English pages.

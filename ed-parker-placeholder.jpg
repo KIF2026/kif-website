@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const c=document.querySelector('[data-policy-checkbox]');const b=document.querySelector('[data-gated-submit]');if(c&&b){const s=()=>{b.disabled=!c.checked};c.addEventListener('change',s);s();}});
